@@ -1,0 +1,38 @@
+{
+  "name": "backendnode",
+  "version": "1.0.0",
+  "description": "Chat like telegram but better",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpqe/nodejs_mongodb_websocket.git"
+  },
+  "keywords": [
+    "chat",
+    "telegram",
+    "server",
+    "nodejs",
+    "mongodb",
+    "websocket"
+  ],
+  "author": "Daniel Quispe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpqe/nodejs_mongodb_websocket/issues"
+  },
+  "homepage": "https://github.com/danielpqe/nodejs_mongodb_websocket#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.4",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
